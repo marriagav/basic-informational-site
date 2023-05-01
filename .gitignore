@@ -1,0 +1,21 @@
+# Build files 
+build
+
+# Dependencies
+node_modules/
+
+# Typescript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# MACOS
+.DS_Store
+.env
+
+# vscode
+.vscode/

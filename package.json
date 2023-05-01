@@ -1,0 +1,27 @@
+{
+  "name": "node_crash_course",
+  "version": "1.0.0",
+  "description": "Node crash course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon",
+    "build": "tsc -p tsconfig.json",
+    "start": "node build/index.js",
+    "format": "prettier --write 'src/**/*.ts' && eslint --fix 'src/**/*.ts'"
+  },
+  "author": "Miguel Arriaga",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/uuid": "^9.0.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
